@@ -1,0 +1,23 @@
+#Pure Functions
+"fungsi tidak bergantung terhadap nilai yang berada diluar fungsi atau parameternya"
+dikarenakan fungsi ini tidak bergantung pada nilai diluar, maka lebih baik nilai tersebut di buat menjadi konstant
+contoh : 
+let PI = 3.14
+
+maka luas lingkaran = PI * r * r
+jika nilai PI berubah, maka hasilnya juga akan berubah, meskipun parameter yang dimasukkan itu saman
+
+maka lebih baik dibuat menjadi seperti berikut
+
+Luas lingkaran = 3.14 * r * r
+maka nilai dari PI tidak dapat dirubah
+
+#Immutable Functions
+"Berarti sebuah objek tidak boleh diubah setelah objek tersebut dibuat"
+jika ingin merubah suatu objek, dengan konsep ini, maka objek tersebut harus dibuat bergantung
+
+#rekursif
+"berarti sebuah fungsi memanggil dirinya sendiri"
+
+#higher order Functions
+Higher-Order Function menjadi bagian konsep pada paradigma FP. Higher-Order Function merupakan fungsi yang dapat menerima fungsi lainnya pada argumen; mengembalikan sebuah fungsi; atau bahkan keduanya.
